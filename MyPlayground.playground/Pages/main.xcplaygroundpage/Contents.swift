@@ -20,6 +20,8 @@ func frozen (){
     print ("Let it go!")
 }
 
+frozen()
+
 
 /*: question2
  ### 2. Write a function named `frozenAgain` that takes no arguments. Declare a constant in the body of the function, and assign it the value "Let it go!". Then print it to the console.
@@ -31,7 +33,7 @@ func frozenAgain () {
     print (str)
 }
 
-
+frozenAgain()
 
 
 /*: question3
@@ -43,7 +45,7 @@ func frozenAgain () {
 func names (namesOfCharacters: String){
     print ("My favorite character \(namesOfCharacters).")
 }
-
+names("Trump")
 /*: question4
  ### 4. Call the function you wrote in Question 3 using a constant you define. Then call it using a variable. Change the value of the variable, and call it again. What do you see in the console?
  */
@@ -69,7 +71,7 @@ func problems(num:Int){
 
 
 
-
+problems(23)
 /*: question6
  ### 6. Write a function that takes two arguments, the name of a band (a `String`) and a number (an `Int`). It should print the message "My #<number> favorite band is <band>." to the console.
  */
